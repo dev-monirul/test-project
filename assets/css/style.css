@@ -1,0 +1,125 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+.sec-content h2 {
+    font-size: 39px;
+    color: #009fe3;
+    line-height: 55px;
+}
+
+.sec-content h2 span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.subcription-form input {
+    padding: 13px 30px;
+    border: 3px solid #009fe3;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    left: -6px;
+    background-color: #fff;
+    outline: none;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    top: -1px;
+    color: #009fe3;
+    height: 60px;
+}
+.subcription-form button {
+    padding: 12px 20px;
+    border: 3px solid #009fe3;
+    border-radius: 10px 0 0 10px;
+    border-right-color: transparent;
+    background: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    color: #009fe3;
+    height: 60px;
+}
+.subcription-form ::placeholder{
+    color: #009fe3;
+    font-size: 20px;
+}
+a.continue-btn {
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 20px 40px;
+    display: inline-block;
+    line-height: 30px;
+    background-image: linear-gradient(to top right, #5D70C2, #C33D9E);
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 30px;
+    transition: .5s;
+    
+}
+.sec-content h2 strong {
+    font-weight: 900;
+}
+.zain-text {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+}
+
+.zain-text p {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 17px;
+    padding: 0 30px;
+    color: #fff;
+}
+.section-padding{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.featured-bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.sec-content.text-center {
+    padding-top: 200px;
+}
+
+.logo a {
+    display: inline-block;
+    background-image: linear-gradient(to top right, #7D207E, #A72CA9);
+    height: 36px;
+    width: 36px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    border-radius: 6px;
+    padding-top: 3px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+img.shape-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
